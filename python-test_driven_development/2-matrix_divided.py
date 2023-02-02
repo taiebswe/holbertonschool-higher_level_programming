@@ -1,4 +1,5 @@
 
+#!/usr/bin/python3
 def matrix_divided(matrix, div):
     """ divides all elements of a matrix """
     error = ("matrix must be a matrix (list of lists) of integers/floats")
