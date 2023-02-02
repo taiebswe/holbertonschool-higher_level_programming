@@ -6,5 +6,5 @@ def add_integer(a, b=98):
         if (not isinstance(b, (float, int))):
             raise TypeError("b must be an integer")
         return (int(a) + int(b))
-    except TypeError as e:
-        raise TypeError(e)
+    except Exception as e:
+        print(repr(e))
