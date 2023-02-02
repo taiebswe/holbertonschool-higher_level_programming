@@ -14,7 +14,7 @@ def matrix_divided(matrix, div):
                 raise TypeError(error)
 
             if (div == float("inf")):
-                valeur_matrix.append(0)
+                valeur_matrix.append(0.0)
             else:
                 valeur_matrix.append(round(float(j / div), 2))
         if ref_size != len(i):
